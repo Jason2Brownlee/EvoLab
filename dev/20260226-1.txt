@@ -1,0 +1,35 @@
+goal:
+
+I want to develop a small and simple game to run in the browser.
+
+I want it to use open source libraries as much as possible so that actual code we develop is less. I am thinking something like three.js but i'm open to whatever is best.
+
+the game:
+
+it fits in one screen
+it has one html file and one js file (unless we really require more files to implement the game)
+it is 2d and side on, it could be top down
+it is about optimizing a "creature" to achieve a goal
+like a car/bike going from a starting line to a finish line or a creature getting itself from start to finish
+there could be a suite of a few environments to choose from later, maybe an env dev tool, but that can come later
+envs are simple, a line or set of lines on which the creature touches and moves across
+there is simple 2d physics and a simple spring or pulse mechanism that gives the creature movement
+
+the user does not control the creature, they control the evolutionary process.
+they have a flow diagram and can add/remove elements like mutate, crossover, elites, selection. each of these boxes may have some config like a rate or type. start simple but be extensible so we can expand it later
+evolution is always running and changes to the flow diagram have effect on the next generation
+fitness is probably time from start to finish. maybe later environments have multiple way points to hit that evolution needs to figure out
+we need to show progress both per generation and across generation, maybe graph/numbers in the hud, maybe a ghost of the creature in the background showing what the best has achieved so far, not sure.
+maybe a button to clear/reset
+maybe a pause/resume
+maybe use threads to do eval in parallel rather than sequentially so we can speed up time
+maybe the env is quite zoomed out so the creatures have a long way to go
+maybe we can zoom in and out
+maybe we can add/remove/move waypoints at will with the mouse making the env dynamic
+maybe we can also add/remove "ground" as well, also it would be nice if we can make the ground not contiguous so they have to figure out jumping or something.
+
+next:
+
+okay, think about this and give me a high-level design.
+no code yet, just give me a terse summary to show you understand and can achieve a first version on this from which we can refine.
+don't ask me questions unless you really need to get an answer.
