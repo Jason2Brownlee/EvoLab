@@ -1,10 +1,14 @@
 # EvoLab
 
-**EvoLab** is a browser-based neuroevolution sandbox where users design and tune an evolutionary pipeline to optimize physics-driven creatures across 2D terrain. Rather than controlling creatures directly, players configure the evolutionary process itself — adjusting selection methods, crossover rates, mutation strength, elitism counts, and fitness functions through a visual flow editor — then watch as populations of spring-jointed creatures evolve locomotion strategies in real time using Matter.js physics. The app ships as two files (one HTML, one JS), runs entirely client-side with no build step, and offers five creature body plans (roller, hopper, snake, bipod, triball), four fitness modes (distance, finish speed, efficiency, sprint), adjustable track lengths, and speed controls, with all configuration persisted across sessions via localStorage.
+**EvoLab** is a browser-based neuroevolution sandbox where users design and tune an evolutionary pipeline to optimize physics-driven creatures across 2D terrain.
+
+Rather than controlling creatures directly, players configure the evolutionary process itself, adjusting selection methods, crossover rates, mutation strength, elitism counts, and fitness functions through a visual flow editor, then watch as populations of spring-jointed creatures evolve locomotion strategies in real time using Matter.js physics.
+
+The app has two files (one HTML, one JS), runs entirely client-side with no build step, and offers five creature body plans (roller, hopper, snake, bipod, triball), four fitness modes (distance, finish speed, efficiency, sprint), adjustable track lengths, and speed controls, with all configuration persisted across sessions via localStorage.
 
 ![Screenshot](dev/screenshot.png)
 
-This is a fun little experiment I developed with claude code.
+This is a fun little experiment I developed with Claude Opus 4.6.
 
 
 
